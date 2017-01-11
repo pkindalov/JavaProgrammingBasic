@@ -56,7 +56,7 @@ public class MetricConverter {
         }
 
 
-        System.out.println(converted + " " + toUnit);
+        //System.out.println(converted + " " + toUnit);
         System.out.printf("%f %s", converted, toUnit);
 
 
