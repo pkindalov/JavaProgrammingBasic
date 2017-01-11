@@ -32,9 +32,7 @@ public class WriteNumbersFrom0To10 {
             System.out.println("Eight");
         }else if(number == 9){
             System.out.println("Nine");
-        }else if(number == 10){
-            System.out.println("Ten");
-        }else if(number > 10){
+        }else {
             System.out.println("Number too big");
         }
     }
