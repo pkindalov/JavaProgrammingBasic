@@ -11,14 +11,11 @@ public class ConcatenateData {
         Scanner scanner = new Scanner(System.in);
 
         String username = scanner.nextLine();
-        String password = scanner.nextLine();
+        String lastName = scanner.nextLine();
         int age = Integer.parseInt(scanner.nextLine());
-        String email = scanner.nextLine();
+        String town = scanner.nextLine();
 
-        System.out.printf("Username: " + username + "===" + "Password: " + password + "===" + "Age: " + age +
-        "===" + "Email: " + email + "%n");
-
-
+        System.out.println("You are " + username + " " + lastName + ", a " + age +"-years old person from " + town + ".");
 
     }
 }
